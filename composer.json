@@ -1,0 +1,21 @@
+{
+    "name": "xvengine/datetime-input-bundle",
+    "description": "Date time input Bundle",
+	"type" : "xvengine-bundle",
+    "authors": [
+        {
+            "name": "Krzysztof Bednarczyk",
+            "email": "admin@bordeux.net",
+            "homepage": "http://bednarczyk.me"
+        }
+    ],
+    "require": {
+		"xvengine/core": "1.*",
+	},
+    "autoload": {
+        "psr-0": {
+            "XVEngine\\Bundle\\DateTimeInputBundle" : ""
+        }
+    },
+	"target-dir": "XVEngine/Bundle/DateTimeInputBundle"
+}
